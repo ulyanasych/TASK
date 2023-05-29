@@ -1,6 +1,7 @@
-from num2word import word
-"""Asks for user number (integer)"""
-num = input("Enter num: ")
+from num2words import num2words
 
-"""Prints user number as text"""
-print("Your num is: "+ word(num))
+# Запит користувача на введення числа (ціле число)
+num = input("Введіть число: ")
+
+# Виведення числа користувача у текстовому вигляді
+print("Ваше число: " + num2words(int(num), lang='uk'))
